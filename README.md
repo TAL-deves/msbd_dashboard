@@ -1,1 +1,1 @@
-# Hello
+# Mind School Dashboard
