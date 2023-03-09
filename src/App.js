@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Hitlog from "./pages/Hitlog";
 import Userspage from "./pages/Userspage";
 import Purchasepage from "./pages/Purchasepage";
+import SearchPage from "./pages/SearchPage";
 import AddACourse from "./pages/AddACourse";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="/hitlog" element={<Hitlog />} />
           <Route path="/users" element={<Userspage />} />
           <Route path="/purchase" element={<Purchasepage />} />
-          <Route path="/add" element={<AddACourse />} />
+          <Route path="/search" element={<SearchPage />} />
         </Routes>
       </Box>
       <Footer />
