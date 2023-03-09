@@ -130,9 +130,7 @@ const SearchPage = () => {
           </Button>
         </Box>
       </form>
-      <Box sx={
-        !isVisible &&
-        {display:"none"}}>
+      <Box sx={!isVisible && { display: "none" }}>
         <Typography>Showing search result: </Typography>
         <Box>
           <Typography>{formData?.name}</Typography>
